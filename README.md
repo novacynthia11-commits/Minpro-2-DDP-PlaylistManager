@@ -120,7 +120,8 @@ b. Jika sesuai angka yang tersedia
 
 c. Jika "0" untuk batal/selesai
 <br>
-<img width="400" alt="Screenshot 2026-10-05 165726" src="https://github.com/user-attachments/assets/e4b237c3-77ef-4d20-a424-fb250c8dd80c" />
+<img width="400" alt="Screenshot 2026-10-05 181131" src="https://github.com/user-attachments/assets/c9822f04-6a41-4931-87f2-029a89f06929" />
+
 
 #### Output logout
 Menu Admin yang fungsinya keluar dari mode Admin dan langsung akan menampilkan ke menu login.
