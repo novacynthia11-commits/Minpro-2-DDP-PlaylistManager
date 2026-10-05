@@ -98,6 +98,18 @@ d. Jika tidak ingin menambahkan lagu lagi
 <br>
 <img width="300" alt="Screenshot 2026-10-05 165307" src="https://github.com/user-attachments/assets/0ad7b13f-e316-4a74-9526-ffc942a1f7fd" />
 
+#### Output edit lagu
+Menu Admin yang fungsinya untuk mengedit lagu yang sudah ada di daftar lagu dengan cara memasukkan nomor lagu yang ingin diedit. Setelah itu, Pengguna akan diminta untuk mengisi judul lagu baru dan nama artis baru. Jika Pengguna memasukkan huruf atau angka tidak tersedia maka program akan menampilkan "Nomor tidak valid!" atau "harus berupa angka!". Pengguna dapat mengetikkan nomor "0" untuk selesai atau batal. ***Catatan:*** Daftar lagu akan diperbarui dengan cara memilih menu lihat lagu. Tampilan lagu diawal hanya patokan. <br>
+a. Jika tidak berupa angka dan angka tidak tersedia
+<br>
+<img width="400" alt="Screenshot 2026-10-05 185044" src="https://github.com/user-attachments/assets/b7ee7c12-7e80-487f-9a44-e8740c08c87a" />
+
+
+
+b. Jika sesuai angka yang tersedia
+<br>
+<img width="400" alt="Screenshot 2026-10-05 185553" src="https://github.com/user-attachments/assets/06bfeecc-5450-43c8-842e-ed0e5f137602" />
+
 #### Output hapus lagu
 Menu Admin yang fungsinya untuk menghapus lagu yang sudah ada di daftar lagu dengan cara memasukkan nomor lagu yang ingin dihapus. Pada bagian ini, daftar lagu akan ditampilkan secara terus-menerus setelah Pengguna memasukkan nomor lagu tersebut dan daftar lagu otomatis akan diperbarui. Pengguna dapat mengetikkan nomor "0" untuk selesai atau batal. <br>
 a. Jika tidak berupa angka dan angka tidak tersedia
