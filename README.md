@@ -207,9 +207,14 @@ c. Jika tidak berupa angka dan angka tidak tersedia
 
 
 
-c. Jika sesuai angka yang tersedia
+d. Jika sesuai angka yang tersedia
 <br>
 <img width="400" alt="Screenshot 2026-10-05 173649" src="https://github.com/user-attachments/assets/985bcc70-90be-4d1b-91b7-d05b0fe1fc05" />
+
+
+
+e. "0" untuk selesai atau batal
+<img width="400" alt="Screenshot 2026-10-05 181641" src="https://github.com/user-attachments/assets/08e38350-f76e-414d-9461-f766d03c4a6c" />
 
 #### Logout
 Menu User yang fungsinya keluar dari mode User dan langsung akan menampilkan ke menu login.
