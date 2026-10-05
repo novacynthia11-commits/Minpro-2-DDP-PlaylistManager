@@ -40,7 +40,7 @@ Flowchart berikut menggambarkan alur dari isi menu Admin, yaitu menambahkan, men
 ### Menu User
 Flowchart berikut menggambarkan alur dari isi menu User, yaitu membuat playlist, menambahkan lagu ke playlist, menghapus lagu dari playlist, dan melihat lagu & playlist. Bagian membuat playlist Pengguna diminta untuk mengisi nama playlist, Pengguna bisa mendapatkan nama dengan angka *random* jika menekan "Enter". Sedangkan untuk menambahkan lagu ke playlist dan menghapus dari playlist dengan cara meng*input*kan nomor lagu yang ingin ditambahkan atau dihapus. Terakhir yaitu melihat lagu dan playlist hanya berfungsi untuk melihat saja, tetapi jika Pengguna belum menambahkan lagu maka playlist hanya kosong dan diminta untuk menambahkan lagu terlebih dahulu.
 <br>
-<img width="450" alt="Minpro_2-Page-4" src="https://github.com/user-attachments/assets/029f28bd-fec4-47f7-b9be-f884a7cbaa6c" />
+<img width="450" alt="Minpro_2-Page-4" src="https://github.com/user-attachments/assets/3fe46338-c107-4e4c-bcd7-409bb5615459" />
 
 ## Output
 ### Output Pembuka
