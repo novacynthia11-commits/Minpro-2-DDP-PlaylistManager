@@ -10,7 +10,7 @@ program ini bernama "Playlist Manager" dimana terdapat 2 role, yaitu Admin dan U
 1. ``os`` berfungsi untuk mengatur dan berinteraksi dengan sistem operasi komputer. Jenis library ini saya gunakan untuk membersihkan layar setiap pengguna selesai melakukan peng*input*an, kecuali pada bagian hapus lagu dan hapus lagu di playlist.
 2. ``pwinput`` berfungsi untuk menyembunyikan *password* dengan cara menampilkan "**" saat peng*input*an. Jenis library ini saya gunakan ketika role 'Admin' ingin *login* dan memasukkan password.
 3. ``random`` berfungsi untuk menghasilkan angka acak atau melakukan operasi berbasis keacakkan. Jenis library ini saya gunakan untuk pemilihan nama playlist dengan angka acak.
-4. ``Error Handling`` berfungsi untuk mencegah program berhenti mendadak saat terjadi *exception*. Saya menggunakan *"try* dan *except* dalam peng*input*an saat kondisi menambahkan dan menghapus menggunakan nomor.
+4. ``Error Handling`` berfungsi untuk mencegah program berhenti mendadak saat terjadi *exception*. Saya menggunakan *"try"* dan *"except"* dalam peng*input*an saat kondisi menambahkan dan menghapus menggunakan nomor.
 5. ``function`` berfungsi untuk blok kode dalam fungsi yang tidak akan dijalankan jika tidak dipanggil. Jenis tipe data ini saya gunakan untuk membuat setiap bagian menu dan membuat bagian pada pilihan menu.
 6. ``list`` berfungsi untuk menyimpan banyak data dalam satu variabel yang dapat diubah. Jenis tipe data ini saya gunakan untuk menyimpan daftar lagu.
 7. ``dictionary`` berfungsi untuk menyimpan data dalam bentuk pasangan. Saya gunakan pada bagian playlist untuk nama dan lagu-lagu yang akan ditambahkan.
