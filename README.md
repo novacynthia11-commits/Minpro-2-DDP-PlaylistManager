@@ -51,50 +51,57 @@ Sebagai pembuka, program akan menampilkan nama dari program yaitu MusicaHolic da
 ### Output Menu Login
 Setelah me*input*kan nama, program akan menampilkan menu login, yaitu Admin, User, dan keluar. Pada bagian ini, setelah Pengguna meng*input*kan pilihannya layar tampilan akan dibersihkan. Jika Pengguna meng*input*kan huruf atau angka yang tidak tersedia di pilihan, maka program akan menampilkan "Nomor tidak valid!" dan melakukan *looping* ke bagian menu login.
 <br>
-<img width="153" height="65" alt="Screenshot 2026-10-05 162024" src="https://github.com/user-attachments/assets/f72e38ce-b1b3-41eb-b3aa-f555530b5126" />
+<img width="400" alt="Screenshot 2026-10-05 162024" src="https://github.com/user-attachments/assets/f72e38ce-b1b3-41eb-b3aa-f555530b5126" />
 #### Output ketika tidak menginputkan angka dan angka tidak tersedia
-<img width="161" height="88" alt="Screenshot 2026-10-05 162042" src="https://github.com/user-attachments/assets/e57c4ae1-ad15-4fee-afc1-ffdf06090f9a" />
+<img width="400" alt="Screenshot 2026-10-05 162042" src="https://github.com/user-attachments/assets/e57c4ae1-ad15-4fee-afc1-ffdf06090f9a" />
 
 ### Output Menu Admin
-Sebelum menampilkan daftar menu Admin, Pengguna diminta untuk memasukkan *password*. Jika *password* salah maka program akan melakukan *return* ke menu login, sedangkan jika *password* benar maka akan dianggap login berhasil dan langsung menampilkan menu Admin. Pada menu Admin terdapat banyak pilihan, yaitu :
-1. **"Lihat lagu"** yang fungsinya untuk melihat daftar lagu saat ini dan setelah diperbarui. Setelah itu program akan langsung melakukan *looping* ke menampilkan menu Admin.
-2. **"Tambah lagu"** yang fungsinya untuk menambahkan lagu ke daftar lagu yang sudah ada saat ini dengan cara memasukkan judul lagu dan nama artisnya. Setelah itu, program akan melakukan *validation* dengan menanyakan apakah sudah selesai menginput. Jika sudah maka akan kembali ke menu Admin, namun jika tidak maka akan melanjutkan memasukkan judul lagu dan nama artisnya. ***Catatan:*** Jika judul lagu sudah pernah diinputkan sebelumnya, maka program akan menampilkan lagu sudah ada di daftar lagu.
-3. **"Hapus lagu"** yang fungsinya untuk menghapus lagu yang sudah ada di daftar lagu dengan cara memasukkan nomor lagu yang ingin dihapus. Pada bagian ini, daftar lagu akan ditampilkan secara terus-menerus setelah Pengguna memasukkan nomor lagu tersebut dan daftar lagu otomatis akan diperbarui. Pengguna dapat mengetikkan nomor "0" untuk selesai atau batal.
-4. **"Logout"** yang fungsinya keluar dari mode Admin dan langsung akan menampilkan ke menu login.
+Sebelum menampilkan daftar menu Admin, Pengguna diminta untuk memasukkan *password*. Jika *password* salah maka program akan melakukan *return* ke menu login, sedangkan jika *password* benar maka akan dianggap login berhasil dan langsung menampilkan menu Admin.
 #### Output memasukkan password
 a. Jika *password* salah
-<img width="300" alt="Screenshot 2026-10-05 162735" src="https://github.com/user-attachments/assets/eaa4caff-034d-4090-82db-c1c9dc00db63" />
+<br>
+<img width="500" alt="Screenshot 2026-10-05 162735" src="https://github.com/user-attachments/assets/eaa4caff-034d-4090-82db-c1c9dc00db63" />
 
 
 
 
 b. Jika *password* benar
-<img width="300" alt="Screenshot 2026-10-05 162812" src="https://github.com/user-attachments/assets/dd1b825f-11ed-4097-92bc-7b68a6d32130" />
+<br>
+<img width="500" alt="Screenshot 2026-10-05 162812" src="https://github.com/user-attachments/assets/dd1b825f-11ed-4097-92bc-7b68a6d32130" />
 
 #### Output lihat lagu
-<img width="300" alt="Screenshot 2026-10-05 164806" src="https://github.com/user-attachments/assets/eda33231-2760-4d91-973d-3d1f06e879c7" />
+Menu Admin yang fungsinya untuk melihat daftar lagu saat ini dan setelah diperbarui. Setelah itu program akan langsung melakukan *looping* ke menampilkan menu Admin.
+<br>
+<img width="500" alt="Screenshot 2026-10-05 164806" src="https://github.com/user-attachments/assets/eda33231-2760-4d91-973d-3d1f06e879c7" />
 
-#### Output hapus lagu
+#### Output tambah lagu
+Menu Admin yang fungsinya untuk menambahkan lagu ke daftar lagu yang sudah ada saat ini dengan cara memasukkan judul lagu dan nama artisnya. Setelah itu, program akan melakukan *validation* dengan menanyakan apakah sudah selesai menginput. Jika sudah maka akan kembali ke menu Admin, namun jika tidak maka akan melanjutkan memasukkan judul lagu dan nama artisnya. ***Catatan:*** Jika judul lagu sudah pernah diinputkan sebelumnya, maka program akan menampilkan lagu sudah ada di daftar lagu. <br>
 a. Jika judul lagu belum ada di daftar lagu
+<br>
 <img width="300" alt="Screenshot 2026-10-05 164941" src="https://github.com/user-attachments/assets/eaf16a54-98a2-4a3f-9f89-223343c855b3" />
 
 
 
 b. Jika judul lagu sudah ada di daftar lagu
+<br>
 <img width="300" alt="Screenshot 2026-10-05 165103" src="https://github.com/user-attachments/assets/13409b64-3f3d-4f13-a051-7808118b7b07" />
 
 
 
 c. Jika ingin menambahkan lagu lagi
+<br>
 <img width="300" alt="Screenshot 2026-10-05 165222" src="https://github.com/user-attachments/assets/87ef8149-250b-41d3-b8e7-b00a5ff01580" />
 
 
 
 d. Jika tidak ingin menambahkan lagu lagi
+<br>
 <img width="300" alt="Screenshot 2026-10-05 165307" src="https://github.com/user-attachments/assets/0ad7b13f-e316-4a74-9526-ffc942a1f7fd" />
 
 #### Output hapus lagu
+Menu Admin yang fungsinya untuk menghapus lagu yang sudah ada di daftar lagu dengan cara memasukkan nomor lagu yang ingin dihapus. Pada bagian ini, daftar lagu akan ditampilkan secara terus-menerus setelah Pengguna memasukkan nomor lagu tersebut dan daftar lagu otomatis akan diperbarui. Pengguna dapat mengetikkan nomor "0" untuk selesai atau batal. <br>
 a. Jika tidak berupa angka dan angka tidak tersedia
+<br>
 <img width="251" alt="Screenshot 2026-10-05 165450" src="https://github.com/user-attachments/assets/edace682-eec3-4a8b-a5c8-df1f864adf0b" />
 
 
@@ -106,77 +113,91 @@ a. Jika tidak berupa angka dan angka tidak tersedia
 
 
 b. Jika sesuai angka yang tersedia
+<br>
 <img width="300" alt="Screenshot 2026-10-05 165619" src="https://github.com/user-attachments/assets/eafb5f3e-44d3-4495-b205-a573d6fef9ca" />
 
 
 
 
 c. Jika "0" untuk batal/selesai
+<br>
 <img width="191" alt="Screenshot 2026-10-05 165726" src="https://github.com/user-attachments/assets/e4b237c3-77ef-4d20-a424-fb250c8dd80c" />
 
 #### Output logout
+Menu Admin yang fungsinya keluar dari mode Admin dan langsung akan menampilkan ke menu login.
+<br>
 <img width="300" alt="Screenshot 2026-10-05 170049" src="https://github.com/user-attachments/assets/cda4e89f-698f-46fe-95d8-23c333d27c77" />
 
 ### Output Menu User
 Pada menu ini Pengguna tidak dimintai *password* dan langsung ditampilkan ke menu User. Pada menu User terdapat banyak pilihan yang tersedia tapi hanya pada bagian playlist, yaitu :
-1. **"Lihat lagu"** yang berfungsi untuk melihat daftar lagu yang sudah diperbarui oleh role Admin. Setelah itu program akan langsung melakukan *looping* ke menampilkan menu User.
-2. **"Buat playlist"** yang berfungsi untuk membuat nama playlist dan menyimpan lagu yang sudah ditambahkan User. Pengguna dapat membuat nama dengan nomor angka yaitu menekan tombol enter dan juga dapat memasukkan nama yang diinginkan dengan huruf, angka, atau kombinasi. Jika sebelumnya sudah pernah membuat playlist, Pengguna dapat mengganti namanya lagi. Setelah selesai memebuat playlist, program akan melakukan *looping* ke menu User.
-3. **"Lihat playlist"** yang berfungsi untuk melihat isi playlist saat ini dan yang sudah diperbarui. Jika Pengguna belum membuat playlist, maka program akan menampilkan "playlist kosong" dan melakukan *return* ke menu User.
-4. **"Tambah lagu ke playlist"** yang berfungsi untuk menambahkan lagu ke playlist dengan cara memasukkan nomor lagu yang ingin ditambahkan. Jika memasukkan selain angka atau nomor yang dimasukkan tidak tersedia, maka program akan menampilkan "harus berupa angka" atau "nomor tidak tersedia" dan melakukan *looping* ke bagian peng*input*tan nomor lagu. Apabila pengguna belum membuat playlist maka pengguna diharuskan untuk membuat terlebih dahulu. Pengguna dapat memasukkan angka "0" untuk selesai/batal. ***Catatan:*** Jika Pengguna memasukkan nomor yang sama, maka program akan menampilkan lagu sudah ada di playlist.
-5. **"Hapus lagu dari playlist"** yang berfungsi untukmenghapus lagu dari playlist dengan cara memasukkan nomor lagu yang ingin ditambahkan. Jika memasukkan selain angka atau nomor yang dimasukkan tidak tersedia, maka program akan menampilkan "harus berupa angka" atau "nomor tidak tersedia" dan melakukan *looping* ke bagian peng*input*tan nomor lagu. Apabila pengguna belum membuat playlist maka pengguna diharuskan untuk membuat terlebih dahulu. Pengguna dapat memasukkan angka "0" untuk selesai/batal. ***Catatan:*** Jika Pengguna memasukkan nomor yang sama, maka program akan menampilkan lagu sudah ada di playlist.
-6. **"Logout"** yang fungsinya keluar dari mode User dan langsung akan menampilkan ke menu login.
-
 #### Output lihat lagu
+yang berfungsi untuk melihat daftar lagu yang sudah diperbarui oleh role Admin. Setelah itu program akan langsung melakukan *looping* ke menampilkan menu User.
+<br>
 <img width="300" alt="Screenshot 2026-10-05 171620" src="https://github.com/user-attachments/assets/5c25e1ec-58fd-468a-922b-2b939a2dce59" />
 
 #### Output buat playlist
+Menu User yang berfungsi untuk membuat nama playlist dan menyimpan lagu yang sudah ditambahkan User. Pengguna dapat membuat nama dengan nomor angka yaitu menekan tombol enter dan juga dapat memasukkan nama yang diinginkan dengan huruf, angka, atau kombinasi. Jika sebelumnya sudah pernah membuat playlist, Pengguna dapat mengganti namanya lagi. Setelah selesai memebuat playlist, program akan melakukan *looping* ke menu User. <br>
 a. Nama dengan angka random
+<br>
 <img width="300" alt="Screenshot 2026-10-05 170724" src="https://github.com/user-attachments/assets/515f04c3-966b-4802-9cef-b5b716256d33" />
 
 
 
 b. Ganti nama playlist
+<br>
 <img width="450" alt="Screenshot 2026-10-05 172036" src="https://github.com/user-attachments/assets/227df9b1-a151-47a0-958c-62eeb242abbf" />
 
 #### Lihat playlist
+Menu User yang berfungsi untuk melihat isi playlist saat ini dan yang sudah diperbarui. Jika Pengguna belum membuat playlist, maka program akan menampilkan "playlist kosong" dan melakukan *return* ke menu User.<br>
 a. Playlist kosong
+<br>
 <img width="400" alt="Screenshot 2026-10-05 172219" src="https://github.com/user-attachments/assets/2dcc5251-10ee-4fa3-af57-5a75e2e90da3" />
 
 
 
 b. Playlist berisi
+<br>
 <img width="400" alt="Screenshot 2026-10-05 173940" src="https://github.com/user-attachments/assets/2c2c2c5f-47a1-43c7-90cb-34fb88267cc2" />
 
 #### Tambah lagu ke playlist
+Menu User yang berfungsi untuk menambahkan lagu ke playlist dengan cara memasukkan nomor lagu yang ingin ditambahkan. Jika memasukkan selain angka atau nomor yang dimasukkan tidak tersedia, maka program akan menampilkan "harus berupa angka" atau "nomor tidak tersedia" dan melakukan *looping* ke bagian peng*input*tan nomor lagu. Apabila pengguna belum membuat playlist maka pengguna diharuskan untuk membuat terlebih dahulu. Pengguna dapat memasukkan angka "0" untuk selesai/batal. ***Catatan:*** Jika Pengguna memasukkan nomor yang sama, maka program akan menampilkan lagu sudah ada di playlist.<br>
 a. Belum membuat playlist
+<br>
 <img width="450" alt="Screenshot 2026-10-05 172714" src="https://github.com/user-attachments/assets/9d0028f2-2b53-43ca-9cde-067f1b1d590e" />
 
 
 
 b. Jika tidak berupa angka dan angka tidak tersedia
+<br>
 <img width="450" alt="Screenshot 2026-10-05 173004" src="https://github.com/user-attachments/assets/d6b0273d-6988-4067-9748-d22eb82dbb23" />
 
 
 
 c. Jika sesuai angka yang tersedia
+<br>
 <img width="450" alt="Screenshot 2026-10-05 173129" src="https://github.com/user-attachments/assets/d876a875-b416-4da7-a2d7-ea2ef2d6f5aa" />
 
 
 
 d. Jika lagu sudah ada di playlist
+<br>
 <img width="350" alt="Screenshot 2026-10-05 173302" src="https://github.com/user-attachments/assets/b437ff5a-036b-4fe7-8277-c964cd300671" />
 
 #### Hapus lagu
+Menu User yang berfungsi untukmenghapus lagu dari playlist dengan cara memasukkan nomor lagu yang ingin ditambahkan. Jika memasukkan selain angka atau nomor yang dimasukkan tidak tersedia, maka program akan menampilkan "harus berupa angka" atau "nomor tidak tersedia" dan melakukan *looping* ke bagian peng*input*tan nomor lagu. Apabila pengguna belum membuat playlist maka pengguna diharuskan untuk membuat terlebih dahulu. Pengguna dapat memasukkan angka "0" untuk selesai/batal. ***Catatan:*** Jika Pengguna memasukkan nomor yang sama, maka program akan menampilkan lagu sudah ada di playlist. <br>
 a. Belum membuat playlist
+<br>
 <img width="400" alt="Screenshot 2026-10-05 173454" src="https://github.com/user-attachments/assets/2d690f9d-8b43-4cc5-8f34-5b7ee0f22648" />
 
 
 b. Belum menambahkan lagu
+<br>
 <img width="400" alt="Screenshot 2026-10-05 173535" src="https://github.com/user-attachments/assets/1e42d96a-bd18-401a-8d47-d2d3387a1223" />
 
 
 
 c. Jika tidak berupa angka dan angka tidak tersedia
+<br>
 <img width="400" alt="Screenshot 2026-10-05 173747" src="https://github.com/user-attachments/assets/f3a16c4b-2980-4202-8829-478f9a9c10af" />
 
 
@@ -187,12 +208,16 @@ c. Jika tidak berupa angka dan angka tidak tersedia
 
 
 c. Jika sesuai angka yang tersedia
+<br>
 <img width="400" alt="Screenshot 2026-10-05 173649" src="https://github.com/user-attachments/assets/985bcc70-90be-4d1b-91b7-d05b0fe1fc05" />
 
 #### Logout
+Menu User yang fungsinya keluar dari mode User dan langsung akan menampilkan ke menu login.
+<br>
 <img width="400" alt="Screenshot 2026-10-05 174127" src="https://github.com/user-attachments/assets/8363ac28-5929-47b8-ae9a-61db8b5f21ac" />
 
 ### Output Keluar
+Pilihan ini berfungsi untuk keluar dari program. <br>
 <img width="400" alt="Screenshot 2026-10-05 174142" src="https://github.com/user-attachments/assets/fa2d4b8b-5009-45de-9c98-7323ad31138e" />
 
 
