@@ -131,7 +131,7 @@ Menu Admin yang fungsinya keluar dari mode Admin dan langsung akan menampilkan k
 ### Output Menu User
 Pada menu ini Pengguna tidak dimintai *password* dan langsung ditampilkan ke menu User. Pada menu User terdapat banyak pilihan yang tersedia tapi hanya pada bagian playlist, yaitu :
 #### Output lihat lagu
-yang berfungsi untuk melihat daftar lagu yang sudah diperbarui oleh role Admin. Setelah itu program akan langsung melakukan *looping* ke menampilkan menu User.
+Menu User yang berfungsi untuk melihat daftar lagu yang sudah diperbarui oleh role Admin. Setelah itu program akan langsung melakukan *looping* ke menampilkan menu User.
 <br>
 <img width="300" alt="Screenshot 2026-10-05 171620" src="https://github.com/user-attachments/assets/5c25e1ec-58fd-468a-922b-2b939a2dce59" />
 
