@@ -17,13 +17,12 @@ program ini bernama "Playlist Manager" dimana terdapat 2 role, yaitu Admin dan U
 8. ``for`` berfungsi melakukan perulangan atau *looping* pada setiap objek yang bisa diulang, seperti **list** dan **tuple**. Digunakan untuk menampilkan perulangan pada daftar lagu dan isi lagu playlist
 9. ``if`` berfungsi dalam pengambilan keputusan yang dilakukan oleh Pengguna dan program akan dijalankan sesuai dengan intruksi yang dibuat. Jenis *conditional statement* ini digunakan setiap peng*input*an pada Pengguna.
 10. ``elif`` berfungsi dalam menangani keputusan yang banyak pada pengambilan keputusan. Jenis *conditional statement* ini juga digunakan setiap peng*input*an pada Pengguna jika kondisi **if** tidak terpenuhi.
-11. ``else`` berfungsi dalam pengambilan keputusan jika *if* tidak terpenuhi atau terlaksana. Jenis *conditional statement* ini digunakan setiap peng*inputtan pada Pengguna jika kondisi **if** dan **elif** tidak terpenuhi.
+11. ``else`` berfungsi dalam pengambilan keputusan jika *if* tidak terpenuhi atau terlaksana. Jenis *conditional statement* ini digunakan setiap peng*input*tan pada Pengguna jika kondisi **if** dan **elif** tidak terpenuhi.
 12. ``break``berfungsi untuk menghentikan secara paksa program. Jenis *transfer statement* ini digunakan pada pemilihan "Exit" di bagian daftar menu.
 13. ``continue`` berfungsi untuk melewatkan intruksi setelahnya atau kembali ke intruksi awal. Jenis *transfer statement* ini digunakan saat Pengguna memilih di daftar menu ketika Pengguna memasukkan angka yang tidak sesuai dengan yang disediakan.
 14. ``return`` berfungsi untuk mengembalikan nilai dari sebuah fungsi ke bagian program yang memanggilnya. Digunakan pada setiap function yang saya buat untuk mengembalikan ke bagian menu.
 15. ``print`` berfungsi untuk menampilkan intruksi yang kita berikan.
 16. ``input`` berfungsi untuk memasukkan data dari Pengguna.
-17. ``return`` berfungsi untuk menghentikan eksekusi sebuah fungsi dan mengembalikan nilai ke bagian program yang memanggilnya. Digunakan untuk mengembalikan nilai dari operasi matematika biaya hotel.
 
 ## Flowchart
 ### Menu Login
