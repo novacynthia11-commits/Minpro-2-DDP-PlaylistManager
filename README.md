@@ -213,7 +213,8 @@ d. Jika sesuai angka yang tersedia
 
 
 
-e. "0" untuk selesai atau batal
+e. Jika "0" untuk batal/selesai
+<br>
 <img width="400" alt="Screenshot 2026-10-05 181641" src="https://github.com/user-attachments/assets/08e38350-f76e-414d-9461-f766d03c4a6c" />
 
 #### Logout
