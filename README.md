@@ -102,12 +102,12 @@ d. Jika tidak ingin menambahkan lagu lagi
 Menu Admin yang fungsinya untuk menghapus lagu yang sudah ada di daftar lagu dengan cara memasukkan nomor lagu yang ingin dihapus. Pada bagian ini, daftar lagu akan ditampilkan secara terus-menerus setelah Pengguna memasukkan nomor lagu tersebut dan daftar lagu otomatis akan diperbarui. Pengguna dapat mengetikkan nomor "0" untuk selesai atau batal. <br>
 a. Jika tidak berupa angka dan angka tidak tersedia
 <br>
-<img width="251" alt="Screenshot 2026-10-05 165450" src="https://github.com/user-attachments/assets/edace682-eec3-4a8b-a5c8-df1f864adf0b" />
+<img width="400" alt="Screenshot 2026-10-05 165450" src="https://github.com/user-attachments/assets/edace682-eec3-4a8b-a5c8-df1f864adf0b" />
 
 
 
 
-<img width="268" alt="Screenshot 2026-10-05 165436" src="https://github.com/user-attachments/assets/5ce43f3f-0ea9-4719-bb78-4e619f0869f1" />
+<img width="400" alt="Screenshot 2026-10-05 165436" src="https://github.com/user-attachments/assets/5ce43f3f-0ea9-4719-bb78-4e619f0869f1" />
 
 
 
@@ -121,7 +121,7 @@ b. Jika sesuai angka yang tersedia
 
 c. Jika "0" untuk batal/selesai
 <br>
-<img width="191" alt="Screenshot 2026-10-05 165726" src="https://github.com/user-attachments/assets/e4b237c3-77ef-4d20-a424-fb250c8dd80c" />
+<img width="400" alt="Screenshot 2026-10-05 165726" src="https://github.com/user-attachments/assets/e4b237c3-77ef-4d20-a424-fb250c8dd80c" />
 
 #### Output logout
 Menu Admin yang fungsinya keluar dari mode Admin dan langsung akan menampilkan ke menu login.
