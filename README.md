@@ -10,19 +10,20 @@ program ini bernama "Playlist Manager" dimana terdapat 2 role, yaitu Admin dan U
 1. ``os`` berfungsi untuk mengatur dan berinteraksi dengan sistem operasi komputer. Jenis library ini saya gunakan untuk membersihkan layar setiap pengguna selesai melakukan peng*input*an, kecuali pada bagian hapus lagu dan hapus lagu di playlist.
 2. ``pwinput`` berfungsi untuk menyembunyikan *password* dengan cara menampilkan "**" saat peng*input*an. Jenis library ini saya gunakan ketika role 'Admin' ingin *login* dan memasukkan password.
 3. ``random`` berfungsi untuk menghasilkan angka acak atau melakukan operasi berbasis keacakkan. Jenis library ini saya gunakan untuk pemilihan nama playlist dengan angka acak.
-4. ``function`` berfungsi untuk blok kode dalam fungsi yang tidak akan dijalankan jika tidak dipanggil. Jenis tipe data ini saya gunakan untuk membuat setiap bagian menu dan membuat bagian pada pilihan menu.
-5. ``list`` berfungsi untuk menyimpan banyak data dalam satu variabel yang dapat diubah. Jenis tipe data ini saya gunakan untuk menyimpan daftar lagu.
-6. ``dictionary`` berfungsi untuk menyimpan data dalam bentuk pasangan. Saya gunakan pada bagian playlist untuk nama dan lagu-lagu yang akan ditambahkan.
-7. ``while`` berfungsi melakukan perulangan atau *looping* pada intruksi yang diberikan yang tidak akan berhenti, kecuali terdapat transfer statement (continue dan break). Jenis *looping* ini digunakan pada bagian peng*input*tan angka untuk pemilihan lagu.
-8. ``for`` berfungsi melakukan perulangan atau *looping* pada setiap objek yang bisa diulang, seperti **list** dan **tuple**. Digunakan untuk menampilkan perulangan pada daftar lagu dan isi lagu playlist
-9. ``if`` berfungsi dalam pengambilan keputusan yang dilakukan oleh Pengguna dan program akan dijalankan sesuai dengan intruksi yang dibuat. Jenis *conditional statement* ini digunakan setiap peng*input*an pada Pengguna.
-10. ``elif`` berfungsi dalam menangani keputusan yang banyak pada pengambilan keputusan. Jenis *conditional statement* ini juga digunakan setiap peng*input*an pada Pengguna jika kondisi **if** tidak terpenuhi.
-11. ``else`` berfungsi dalam pengambilan keputusan jika *if* tidak terpenuhi atau terlaksana. Jenis *conditional statement* ini digunakan setiap peng*input*tan pada Pengguna jika kondisi **if** dan **elif** tidak terpenuhi.
-12. ``break``berfungsi untuk menghentikan secara paksa program. Jenis *transfer statement* ini digunakan pada pemilihan "Exit" di bagian daftar menu.
-13. ``continue`` berfungsi untuk melewatkan intruksi setelahnya atau kembali ke intruksi awal. Jenis *transfer statement* ini digunakan saat Pengguna memilih di daftar menu ketika Pengguna memasukkan angka yang tidak sesuai dengan yang disediakan.
-14. ``return`` berfungsi untuk mengembalikan nilai dari sebuah fungsi ke bagian program yang memanggilnya. Digunakan pada setiap function yang saya buat untuk mengembalikan ke bagian menu.
-15. ``print`` berfungsi untuk menampilkan intruksi yang kita berikan.
-16. ``input`` berfungsi untuk memasukkan data dari Pengguna.
+4. ``Error Handling`` berfungsi untuk mencegah program berhenti mendadak saat terjadi *exception*. Saya menggunakan *"try* dan *except* dalam peng*input*an saat kondisi menambahkan dan menghapus menggunakan nomor.
+5. ``function`` berfungsi untuk blok kode dalam fungsi yang tidak akan dijalankan jika tidak dipanggil. Jenis tipe data ini saya gunakan untuk membuat setiap bagian menu dan membuat bagian pada pilihan menu.
+6. ``list`` berfungsi untuk menyimpan banyak data dalam satu variabel yang dapat diubah. Jenis tipe data ini saya gunakan untuk menyimpan daftar lagu.
+7. ``dictionary`` berfungsi untuk menyimpan data dalam bentuk pasangan. Saya gunakan pada bagian playlist untuk nama dan lagu-lagu yang akan ditambahkan.
+8. ``while`` berfungsi melakukan perulangan atau *looping* pada intruksi yang diberikan yang tidak akan berhenti, kecuali terdapat transfer statement (continue dan break). Jenis *looping* ini digunakan pada bagian peng*input*tan angka untuk pemilihan lagu.
+9. ``for`` berfungsi melakukan perulangan atau *looping* pada setiap objek yang bisa diulang, seperti **list** dan **tuple**. Digunakan untuk menampilkan perulangan pada daftar lagu dan isi lagu playlist
+10. ``if`` berfungsi dalam pengambilan keputusan yang dilakukan oleh Pengguna dan program akan dijalankan sesuai dengan intruksi yang dibuat. Jenis *conditional statement* ini digunakan setiap peng*input*an pada Pengguna.
+11. ``elif`` berfungsi dalam menangani keputusan yang banyak pada pengambilan keputusan. Jenis *conditional statement* ini juga digunakan setiap peng*input*an pada Pengguna jika kondisi **if** tidak terpenuhi.
+12. ``else`` berfungsi dalam pengambilan keputusan jika *if* tidak terpenuhi atau terlaksana. Jenis *conditional statement* ini digunakan setiap peng*input*tan pada Pengguna jika kondisi **if** dan **elif** tidak terpenuhi.
+13. ``break``berfungsi untuk menghentikan secara paksa program. Jenis *transfer statement* ini digunakan pada pemilihan "Exit" di bagian daftar menu.
+14. ``continue`` berfungsi untuk melewatkan intruksi setelahnya atau kembali ke intruksi awal. Jenis *transfer statement* ini digunakan saat Pengguna memilih di daftar menu ketika Pengguna memasukkan angka yang tidak sesuai dengan yang disediakan.
+15. ``return`` berfungsi untuk mengembalikan nilai dari sebuah fungsi ke bagian program yang memanggilnya. Digunakan pada setiap function yang saya buat untuk mengembalikan ke bagian menu.
+16. ``print`` berfungsi untuk menampilkan intruksi yang kita berikan.
+17. ``input`` berfungsi untuk memasukkan data dari Pengguna.
 
 ## Flowchart
 ### Menu Login
