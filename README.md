@@ -184,7 +184,7 @@ d. Jika lagu sudah ada di playlist
 <img width="350" alt="Screenshot 2026-10-05 173302" src="https://github.com/user-attachments/assets/b437ff5a-036b-4fe7-8277-c964cd300671" />
 
 #### Hapus lagu
-Menu User yang berfungsi untukmenghapus lagu dari playlist dengan cara memasukkan nomor lagu yang ingin ditambahkan. Jika memasukkan selain angka atau nomor yang dimasukkan tidak tersedia, maka program akan menampilkan "harus berupa angka" atau "nomor tidak tersedia" dan melakukan *looping* ke bagian peng*input*tan nomor lagu. Apabila pengguna belum membuat playlist maka pengguna diharuskan untuk membuat terlebih dahulu. Pengguna dapat memasukkan angka "0" untuk selesai/batal. ***Catatan:*** Jika Pengguna memasukkan nomor yang sama, maka program akan menampilkan lagu sudah ada di playlist. <br>
+Menu User yang berfungsi untuk menghapus lagu dari playlist dengan cara memasukkan nomor lagu yang ingin ditambahkan. Jika memasukkan selain angka atau nomor yang dimasukkan tidak tersedia, maka program akan menampilkan "harus berupa angka" atau "nomor tidak tersedia" dan melakukan *looping* ke bagian peng*input*tan nomor lagu. Apabila pengguna belum membuat playlist maka pengguna diharuskan untuk membuat terlebih dahulu. Pengguna dapat memasukkan angka "0" untuk selesai/batal. ***Catatan:*** Jika Pengguna memasukkan nomor yang sama, maka program akan menampilkan lagu sudah ada di playlist. <br>
 a. Belum membuat playlist
 <br>
 <img width="400" alt="Screenshot 2026-10-05 173454" src="https://github.com/user-attachments/assets/2d690f9d-8b43-4cc5-8f34-5b7ee0f22648" />
